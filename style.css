@@ -1,0 +1,58 @@
+@import url(https://fonts.google.com/specimen/Lalezar?subset=arabic);
+@import url(https://fonts.google.com/noto/specimen/Noto+Sans+Arabic?subset=arabic&noto.script=Arab);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans Arabic' , Tahoma;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #b953d1;
+}
+.contariner{
+    width: 400px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px;
+}
+.info h1{
+    font-family: 'Lalezar' , Tahoma;
+    padding: 10px 0;
+}
+.info p{
+    padding: 20px 0;
+}
+.contariner form{
+    margin: 15px 0 25px;
+}
+.contariner form :where(input , button){
+    outline: 0;
+    border: 0;
+    width: 100%;
+    border-radius: 5px;
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+.contariner form input{
+    border: 1px solid #999;
+}
+.contariner form button{
+    background: #b953d1;
+    color: #fff;
+}
+.contariner .qr-code{
+    border: 1px solid #999;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+}
+.hidden{
+    display: none;
+}
